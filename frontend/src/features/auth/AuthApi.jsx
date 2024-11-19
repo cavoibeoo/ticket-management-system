@@ -1,6 +1,6 @@
 import axios from 'axios'
 
-export const axiosi=axios.create({baseURL:"http://localhost:8000",withCredentials:true})
+export const axiosi=axios.create({baseURL:"https://ticket-management-system-dows.vercel.app/",withCredentials:true})
 
 export const loginUser=async(data)=>{
     try {
